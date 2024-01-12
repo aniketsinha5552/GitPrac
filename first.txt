@@ -1,4 +1,4 @@
 Hell Git
 
 
-Today we have mock test
+Today we don't have mock test
