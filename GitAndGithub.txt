@@ -1,0 +1,37 @@
+Git and Github
+
+1. Install Git
+
+2. Config git with username (git config --global user.email "abc@123")
+
+3. Create and initialize repository (git init)
+
+4. Create a file in the repo (.txt)
+
+5 `git status`, git add file.txt (add to staging)
+
+6. git rm file.txt (to uncommit the file from staging)
+ 
+7. git commit -m "message"
+
+8. git log  (to get Git logs)
+
+9. Create branch (git branch <branch name>, a new branch will have the latest master code)
+
+10. Go to branch (git checkout <branch name>)
+
+11. Check current branch (git branch), use `git checkout -b <branch name>` to create branch and checkout together
+
+12. add and commit with one command (git commit -a -m "message")
+
+13. Merge into master. Go to master branch and type `git merge <branch name>`
+
+14. Merge Conflicts (make change in the same file from both branches). Merge to main, we will get merge conflict
+
+15. Add remote origin: `git remote add origin <ssh>`
+16. Set upstream origin `git push --set-upstream origin master`
+
+17. Add local branch to github: `git push orign -u <branch name>`
+
+
+
